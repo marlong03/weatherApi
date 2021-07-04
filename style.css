@@ -1,0 +1,143 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+    background-color: #252838;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:70px 150px;
+}
+.title{
+    display: flex;
+}
+header img{
+    width:60px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+ h1 span{
+    color:#2059a3;
+    margin:0 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container #search{
+
+    border:none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+    background:white;
+    box-shadow: 5px 5px 15px #1f1f1f;
+
+    color:#2059a3;
+    font-size: 17px;
+    outline:none;
+
+    padding:20px 20px;
+    
+    width: 500px;
+
+}
+#search::placeholder{
+    color:#2059a3;
+    
+    font-size: 17px;
+    letter-spacing: 2px;
+    
+}
+#submit{
+    padding:0 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    background: #2059a3; 
+    box-shadow: 5px 5px 15px #1f1f1f;
+    
+    color:white;
+    font-size: 17px;
+    outline:none;
+    border:none;
+}
+#submit:hover{
+    background-color: white;
+    color:#2059a3;   
+}
+.container_target{
+    flex-wrap: wrap;
+    margin-top: 60px;
+    max-width: 70%;
+    margin: 50px auto;
+}
+.target{
+    width:190px;
+    height:250px;
+    border-radius: 5px;
+    background-color: #ffffff55;
+    margin:10px 10px;
+    box-shadow: 5px 7px 5px #00000055;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.target:hover{
+    background-color: #ffffff8c;
+    transform:scale(1.01);
+}
+.target span{
+    background-color: #2059a3;
+    border-radius: 40px;
+    padding:1px 5px;
+}
+.target input{
+    background-color: transparent;
+    border:none;
+    font-size: 18px;
+    color:#2059a3;
+    font-weight: 600;
+    cursor: pointer;
+}
+.target .target_header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+
+}
+.target_header .nameCity{
+    display: flex;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* -------------- */
+.target_content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 45px;
+    margin-top: 0px;
+}
+.target_content img{
+    width:100px;
+}
+.target_content p{
+    margin-top:0px ;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0px;
+}
+@media(max-width:600px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
